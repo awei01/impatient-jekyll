@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Sale Away, Sale Away - The Buy 3 Get 1 One on Shirts is Back!
-date: 2013-06-03 13:13:00.000000000 +00:00
+date: 2013-06-03 13:13:00 +0000
 type: post
-parent_id: '0'
-published: true
+parent_id: 0
 password: ''
 status: publish
 categories:
@@ -30,6 +29,7 @@ author:
   display_name: Samantha
   first_name: Samantha
   last_name: Shih
+
 ---
 [![]({{ site.baseurl }}/assets/2012-Fall-shoot-9tailors-188.jpg)](http://2.bp.blogspot.com/-m0PbxfDGzHY/UayV226znBI/AAAAAAAAN4Y/6J08Fq2bNfU/s1600/2012-Fall-shoot-9tailors-188.jpg)
 
