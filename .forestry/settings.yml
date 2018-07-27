@@ -14,8 +14,6 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  templates:
-    - posts-fields
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
