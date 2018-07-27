@@ -10,7 +10,6 @@ categories:
 - Style Tips
 tags:
 - 9tailors
-- BOGO
 - buy one get one
 - custom shirting
 - custom shirts
