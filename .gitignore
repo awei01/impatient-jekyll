@@ -1,0 +1,14 @@
+# JEKYLL STUFF
+_site
+.sass-cache
+.jekyll-metadata
+.publish
+*.min.*
+
+# NODE
+node_modules
+package-lock.json
+
+# SYSTEM
+.DS_Store
+*.log

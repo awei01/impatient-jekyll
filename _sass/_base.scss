@@ -1,0 +1,33 @@
+// BULMA VARIABLES
+// --------------------------------------
+// $body-background-color: $white !default
+// $body-size: 16px !default
+// $body-rendering: optimizeLegibility !default
+// $body-family: $family-primary !default
+$body-color: $grey-darker;
+// $body-weight: $weight-normal !default
+// $body-line-height: 1.5 !default
+
+// $code-family: $family-code !default
+// $code-padding: 0.25em 0.5em 0.25em !default
+// $code-weight: normal !default
+// $code-size: 0.875em !default
+
+// $hr-background-color: $background !default
+// $hr-height: 2px !default
+// $hr-margin: 1.5rem 0 !default
+
+// $strong-color: $text-strong !default
+// $strong-weight: $weight-bold !default
+
+@import "../node_modules/bulma/sass/base/generic";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+// .font-gothic {
+//   font-family: $font-face-gothic;
+// }
+
