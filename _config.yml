@@ -34,6 +34,9 @@ exclude:
   - package-lock.json
   # GULP
   - gulpfile.js
+  # RUBY
+  - Gemfile
+  - Gemfile.lock
   # ETC
   - README.md
   - "*.log"
