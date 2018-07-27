@@ -2,3 +2,13 @@ backend:
   name: bitbucket
   repo: mr_rugby/jekyll-site
   branch: netlify
+publish_mode: editorial_workflow
+media_folder: uploads
+collections:
+  - name: pages
+    label: Pages
+    folder: collections/_pages
+    create: true
+  - name: posts
+    label: Posts
+    folder: collections/_posts

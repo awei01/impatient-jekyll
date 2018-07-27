@@ -81,7 +81,9 @@ gulp.task('optimize-html', ['optimize-js'], function() {
  */
 gulp.task('watch', function () {
     gulp.watch(['*.+(html|md|yml)',
-                '+(_collections|_includes|_layouts|_posts|_sass|css)/**'],
+                // '+(_collections|_includes|_layouts|_sass|css)/**'],
+                // add watch for netlify
+                '+(admin|_collections|_includes|_layouts|_sass|css)/**'],
                 function (event) {
                     console.log('changed', event)
                     gulp.run('jekyll-rebuild')
@@ -108,7 +110,7 @@ gulp.task('default', ['browser-sync', 'watch']);
 */
 gulp.task('jekyll-build-prod', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build', '--config', '_config.yml,_config.prod.yml'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build', '--config', '_config.yml,_config.prod.yml', '--incremental'], {stdio: 'inherit'})
         .on('close', done);
 });
 gulp.task('optimize-css-prod', ['jekyll-build-prod'], function () {
