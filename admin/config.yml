@@ -1,0 +1,4 @@
+backend:
+  name: bitbucket
+  repo: mr_rugby/jekyll-site
+  branch: netlify
