@@ -4,10 +4,10 @@ auto_deploy: false
 admin_path:
 webhook_url:
 collections:
-- path: ''
+- path: 'collections/_pages'
   label: Pages
   create: all
-- path: _posts
+- path: collections/_posts
   label: Posts
   create: all
 upload_dir: uploads
