@@ -27,4 +27,4 @@ fields:
   label: Tags
   description: List of tags
 pages:
-- collections/_posts/2013-06-03-sale-away-sale-away-the-buy-3-get-1-one-on-shirts-is-back.md
+  - collections/_posts/*.md
