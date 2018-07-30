@@ -16,5 +16,3 @@ fields:
 - type: file
   name: image
   label: Image
-pages:
-- collections/_authors/austin.md
