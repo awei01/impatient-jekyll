@@ -27,4 +27,4 @@ fields:
   label: Tags
   description: List of tags
 pages:
-  - collections/_posts/*.md
+  - _posts/*.md
