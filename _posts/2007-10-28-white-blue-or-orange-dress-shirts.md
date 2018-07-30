@@ -1,10 +1,9 @@
 ---
 layout: post
 title: White, Blue, or Orange Dress Shirts?
-date: 2007-10-28 22:54:00.000000000 +00:00
+date: 2007-10-28 22:54:00 +0000
 type: post
-parent_id: '0'
-published: true
+parent_id: 0
 password: ''
 status: publish
 categories:
@@ -25,8 +24,8 @@ author:
   display_name: Samantha
   first_name: Samantha
   last_name: Shih
----
 
+---
 So, the other day, I was doing my usual online browsing and I stumbled upon an interesting article by ***The New York Times*** entitled, "[For Men's Shirts, It's Bright Colors And Bold Patterns](http://query.nytimes.com/gst/fullpage.html?res=9A04E4DF1438F930A25752C1A9659C8B63&amp;n=Top/News/Business/Companies/Wal-Mart%20Stores%20Inc.)". In the article it claimed that men were choosing brighter, bolder shirts - think crazy stripes and checkered patterns. Ok, sure the article is a little dated (ahem, published in 2003), But it got me thinking about men and their choices in dress shirts. *What should a man have in his dress shirt collection?*
 
 While it is great to see men being more fashion-forward, selecting unconventional colors and patterns. In my opinion, nothing beats a crisp, white shirt (this also goes for women, too). While some argue that fair skinned individuals should not wear white because it does not enhance their skin tone and hair color, I believe that white shirts are classic, professional, and effortless (meaning you can just put on the white shirt and pants, and go).

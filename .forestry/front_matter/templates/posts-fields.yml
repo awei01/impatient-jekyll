@@ -27,4 +27,4 @@ fields:
   label: Tags
   description: List of tags
 pages:
-  - _posts/*.md
+- _posts/2007-10-28-white-blue-or-orange-dress-shirts.md
