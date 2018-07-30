@@ -1,0 +1,28 @@
+---
+label: posts fields
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  label: Layout
+  name: layout
+  hidden: true
+  config:
+    required: true
+  default: posts
+- type: text
+  name: title
+  label: Title
+  description: Title of the post
+  config:
+    required: true
+- type: datetime
+  label: Date
+  name: date
+  description: Date post is created
+  config:
+    required: true
+- type: tag_list
+  name: tags
+  label: Tags
+  description: List of tags
