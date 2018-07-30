@@ -1,10 +1,9 @@
 ---
 layout: post
 title: 'Behind the Seams with Sam & Austin: A Sit-down with the Studio Space'
-date: 2018-07-25 16:47:18.000000000 +00:00
+date: 2018-07-25 16:47:18 +0000
 type: post
-parent_id: '0'
-published: true
+parent_id: 0
 password: ''
 status: publish
 categories:
@@ -23,12 +22,8 @@ meta:
   _thumbnail_id: '5808'
   _pingme: '1'
   _encloseme: '1'
-author:
-  login: kara
-  email: karau@9tailors.com
-  display_name: Kara Undag
-  first_name: Kara
-  last_name: Undag
+author: collections/_authors/samantha-shih.md
+
 ---
 In this special edition of #BehindtheSeams, we sat down with Sam & Austin to get to know the 9Tailors studio space. Every detail is a crucial piece of the custom-suiting puzzle—and we’ve got the 411 on the inspiration, and hard work that went into designing this menswear paradise. This carefully crafted space fosters creativity, and the cool, comfortable experience of the unique custom clothier that is 9Tailors.
 
