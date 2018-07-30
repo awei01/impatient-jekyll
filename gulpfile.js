@@ -25,7 +25,7 @@ var messages     = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build', '--config', '_config.yml'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build', '--config', '_config.yml', '--incremental'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -67,8 +67,12 @@ gulp.task('optimize-css', ['jekyll-build'], function () {
         .pipe(browserSync.reload({stream:true}))
 });
 
+gulp.task('copy-files', ['optimize-css'], function () {
+    gulp.src(['admin/**'])
+        .pipe(gulp.dest('_site/admin'))
+});
 
-gulp.task('optimize-js', ['optimize-css'], function() {
+gulp.task('optimize-js', ['copy-files'], function() {
      return gulp;
 });
 
@@ -110,7 +114,7 @@ gulp.task('default', ['browser-sync', 'watch']);
 */
 gulp.task('jekyll-build-prod', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build', '--config', '_config.yml,_config.prod.yml', '--incremental'], {stdio: 'inherit'})
+    return cp.spawn( jekyll , ['build', '--config', '_config.yml,_config.prod.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 gulp.task('optimize-css-prod', ['jekyll-build-prod'], function () {
