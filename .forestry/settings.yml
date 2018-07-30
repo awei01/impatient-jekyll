@@ -14,13 +14,15 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  templates: post-attributes
+  templates:
+  - post-attributes
 - type: directory
   path: collections/_authors
   label: Authors
   create: all
   match: "**/*"
-  templates: author-attributes
+  templates:
+  - author-attributes
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
