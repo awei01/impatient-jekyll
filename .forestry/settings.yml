@@ -1,19 +1,26 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
+upload_dir: ''
+public_path: ''
+front_matter_path: ''
+use_front_matter_path:
+file_template: ":filename:"
 sections:
 - type: directory
   path: collections/_pages
   label: Pages
   create: all
   match: "**/*"
-- type: jekyll-posts
+- type: directory
+  path: collections/_posts
   label: Posts
   create: all
-upload_dir: ''
-public_path: ''
-front_matter_path: ''
-use_front_matter_path: 
-file_template: ":filename:"
+  match: "**/*"
+- type: directory
+  path: collections/_authors
+  label: Authors
+  create: all
+  match: "**/*"
