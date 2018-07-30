@@ -26,6 +26,14 @@ fields:
   name: tags
   label: Tags
   description: List of tags
+- type: select
+  config:
+    source:
+      type: pages
+      section: authors
+    required: true
+  label: Author
+  name: author
 pages:
 - collections/_posts/2014-12-09-keeping-your-shoes-in-shape-for-winter.md
 - collections/_posts/2011-07-16-and-summer-gets-better-and-better.md
