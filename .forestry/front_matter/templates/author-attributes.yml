@@ -16,5 +16,11 @@ fields:
 - type: file
   name: image
   label: Image
+- type: blocks
+  template_types:
+  - global-attributes
+  hidden: true
+  label: Meta
+  name: meta
 pages:
 - collections/_authors/samantha-shih.md
