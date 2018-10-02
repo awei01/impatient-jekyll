@@ -1,28 +1,10 @@
 ---
-behind-the-seams:
-  slug: behind-the-seams
-  name: Behind the Seams
-events-promotions:
-  slug: events-promotions
-  name: Events &amp; Promotions
-fun:
-  slug: fun
-  name: Fun
-our-clients:
-  slug: our-clients
-  name: Our Clients
-press:
-  slug: press
-  name: Press
-style-tips:
-  slug: style-tips
-  name: Style Tips
-uncategorized:
-  slug: uncategorized
-  name: Uncategorized
-weddings:
-  slug: weddings
-  name: Weddings
-whats-new:
-  slug: whats-new
-  name: What's New
+behind-the-seams: Behind the Seams
+events-promotions: Events &amp; Promotions
+fun: Fun
+our-clients: Our Clients
+press: Press
+style-tips: Style Tips
+uncategorized: Uncategorized
+weddings: Weddings
+whats-new: What's New
