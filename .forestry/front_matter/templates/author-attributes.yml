@@ -1,0 +1,24 @@
+---
+label: Author Attributes
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: first_name
+  label: First Name
+  config:
+    required: true
+- type: text
+  name: last_name
+  label: Last Name
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+- type: blocks
+  template_types:
+  - global-attributes
+  hidden: true
+  label: Meta
+  name: meta
